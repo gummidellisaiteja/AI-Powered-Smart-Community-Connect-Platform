@@ -1,0 +1,744 @@
+{
+  "users": [
+    {
+      "id": "USR-CITIZEN-01",
+      "name": "K. Venkat Rao",
+      "phone": "9848011223",
+      "email": "venkat.rao@gramconnect.in",
+      "role": "citizen",
+      "village": "Penumantra",
+      "mandal": "Penumantra",
+      "district": "West Godavari",
+      "avatarUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=200&q=80",
+      "bio": "Farmer and active village resident passionate about road safety and local drainage improvements.",
+      "createdAt": "2026-01-15"
+    },
+    {
+      "id": "USR-WORKER-01",
+      "name": "Venkata Ramana",
+      "phone": "9848123456",
+      "email": "ramana.electrician@gramconnect.in",
+      "role": "worker",
+      "village": "Penumantra",
+      "mandal": "Penumantra",
+      "district": "West Godavari",
+      "occupation": "Electrician & Motor Mechanic",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+      "bio": "Certified electrical technician with 9 years of field experience in motor windings and domestic solar fittings.",
+      "createdAt": "2026-02-01"
+    },
+    {
+      "id": "USR-STUDENT-01",
+      "name": "P. Haritha",
+      "phone": "9848334455",
+      "email": "haritha.student@gramconnect.in",
+      "role": "student",
+      "village": "Tadepalligudem",
+      "mandal": "Tadepalligudem",
+      "district": "West Godavari",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
+      "bio": "Final year B.Sc student preparing for APPSC Group 2 & Banking exams while mentoring school children.",
+      "createdAt": "2026-03-10"
+    },
+    {
+      "id": "USR-EMPLOYER-01",
+      "name": "Nageswara Rao",
+      "phone": "9848055667",
+      "email": "rythu.nagesh@gramconnect.in",
+      "role": "employer",
+      "village": "Penumantra",
+      "mandal": "Penumantra",
+      "district": "West Godavari",
+      "avatarUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=200&q=80",
+      "bio": "Paddy farmer and local construction contractor hiring skilled and agricultural workers.",
+      "createdAt": "2026-02-15"
+    },
+    {
+      "id": "USR-ADMIN-01",
+      "name": "Srinivas Rao (Grama Secretary)",
+      "phone": "9440112233",
+      "email": "secretary.penumantra@ap.gov.in",
+      "role": "admin",
+      "village": "Penumantra",
+      "mandal": "Penumantra",
+      "district": "West Godavari",
+      "avatarUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=200&q=80",
+      "bio": "Panchayat Secretary supervising civic grievances, village funds, and sanitation drives.",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "USR-SECRETARY-01",
+      "name": "Srinu (Grama Panchayat Secretary)",
+      "phone": "9440112233",
+      "email": "srinu@gmail.com",
+      "password": "0987",
+      "role": "admin",
+      "userType": "Grama Secretary",
+      "village": "Penumantra",
+      "mandal": "Penumantra",
+      "district": "West Godavari",
+      "avatarUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=200&q=80",
+      "bio": "Authorized Grama Panchayat Secretary supervising civic grievances, village development, and public administration.",
+      "createdAt": "2026-01-01"
+    }
+  ],
+  "complaints": [
+    {
+      "id": "GC-AP-2026-0101",
+      "title": "Main Bus Road Potholes Danger near Village Water Tank",
+      "category": "Roads",
+      "village": "Peddapuram",
+      "mandal": "Peddapuram",
+      "district": "Kakinada / East Godavari",
+      "description": "Heavy monsoon rains created deep potholes on the main bus road near the village water tank. Two auto-rickshaws damaged recently.",
+      "photoUrl": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?auto=format&fit=crop&w=600&q=80",
+      "beforePhotoUrl": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?auto=format&fit=crop&w=600&q=80",
+      "afterPhotoUrl": "https://images.unsplash.com/photo-1584467735815-f778f274e296?auto=format&fit=crop&w=600&q=80",
+      "status": "Resolved",
+      "raisedBy": "Ramesh Babu",
+      "raisedByPhone": "9848012345",
+      "createdAt": "2026-08-01",
+      "updatedAt": "2026-08-05",
+      "locationAddress": "Main Bus Stand Road, Peddapuram",
+      "gpsCoords": {
+        "lat": 17.0256,
+        "lng": 82.1378
+      },
+      "adminNotes": "Panchayat road contractor re-surfaced with bitumen concrete on Aug 5.",
+      "assignedOfficer": "Srinivas Rao (Panchayat Secretary)",
+      "priority": "High",
+      "history": [
+        {
+          "id": "H1",
+          "status": "Submitted",
+          "timestamp": "2026-08-01 09:30 AM",
+          "updatedBy": "Citizen Ramesh Babu",
+          "notes": "Grievance submitted with location & photo evidence."
+        },
+        {
+          "id": "H2",
+          "status": "Under Review",
+          "timestamp": "2026-08-02 11:15 AM",
+          "updatedBy": "Panchayat Assistant",
+          "notes": "Inspected by Engineering Assistant. Sanctioned road patch fund."
+        },
+        {
+          "id": "H3",
+          "status": "In Progress",
+          "timestamp": "2026-08-04 08:00 AM",
+          "updatedBy": "R&B Contractor",
+          "notes": "Bitumen and gravel work commenced."
+        },
+        {
+          "id": "H4",
+          "status": "Resolved",
+          "timestamp": "2026-08-05 04:30 PM",
+          "updatedBy": "Srinivas Rao (Secretary)",
+          "notes": "Road patch completed. After photo verified.",
+          "photoUrl": "https://images.unsplash.com/photo-1584467735815-f778f274e296?auto=format&fit=crop&w=600&q=80"
+        }
+      ]
+    },
+    {
+      "id": "GC-AP-2026-0102",
+      "title": "Streetlight Transformer Low Voltage & Dark Lanes",
+      "category": "Streetlight",
+      "village": "Penumantra",
+      "mandal": "Penumantra",
+      "district": "West Godavari",
+      "description": "Streetlights on BC Colony 3rd lane are not working for 4 days due to low voltage transformer fuse fault.",
+      "photoUrl": "https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=600&q=80",
+      "beforePhotoUrl": "https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=600&q=80",
+      "status": "In Progress",
+      "raisedBy": "Lakshmi Devi",
+      "raisedByPhone": "9440198765",
+      "createdAt": "2026-08-09",
+      "updatedAt": "2026-08-10",
+      "locationAddress": "BC Colony Street 3, Penumantra",
+      "gpsCoords": {
+        "lat": 16.6342,
+        "lng": 81.6547
+      },
+      "adminNotes": "APSPDCL Lineman assigned to replace fuse unit.",
+      "assignedOfficer": "M. Venkateswarlu (APSPDCL Lineman)",
+      "priority": "Medium",
+      "history": [
+        {
+          "id": "H1",
+          "status": "Submitted",
+          "timestamp": "2026-08-09 07:45 PM",
+          "updatedBy": "Lakshmi Devi",
+          "notes": "Dark street causing difficulty for elderly residents at night."
+        },
+        {
+          "id": "H2",
+          "status": "Under Review",
+          "timestamp": "2026-08-10 10:00 AM",
+          "updatedBy": "Panchayat Desk",
+          "notes": "Forwarded to Electricity sub-station."
+        },
+        {
+          "id": "H3",
+          "status": "In Progress",
+          "timestamp": "2026-08-10 02:00 PM",
+          "updatedBy": "M. Venkateswarlu (Lineman)",
+          "notes": "Transformer fuse being replaced with heavy-duty ceramic cut-out."
+        }
+      ]
+    },
+    {
+      "id": "GC-AP-2026-0103",
+      "title": "Drainage Overflow near Primary School Gate",
+      "category": "Drainage",
+      "village": "Tadepalligudem",
+      "mandal": "Tadepalligudem",
+      "district": "West Godavari",
+      "description": "Blocked drain silt causing waste water overflow near MPPS Primary school campus entrance, creating mosquito breeding.",
+      "photoUrl": "https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&w=600&q=80",
+      "beforePhotoUrl": "https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&w=600&q=80",
+      "status": "Under Review",
+      "raisedBy": "K. Satyanarayana",
+      "raisedByPhone": "9123456789",
+      "createdAt": "2026-08-11",
+      "updatedAt": "2026-08-11",
+      "locationAddress": "MPPS School Road, Ward 4",
+      "gpsCoords": {
+        "lat": 16.8142,
+        "lng": 81.5267
+      },
+      "assignedOfficer": "Sanitation Inspector Ward 4",
+      "priority": "High",
+      "history": [
+        {
+          "id": "H1",
+          "status": "Submitted",
+          "timestamp": "2026-08-11 08:30 AM",
+          "updatedBy": "K. Satyanarayana",
+          "notes": "Filed with photo."
+        },
+        {
+          "id": "H2",
+          "status": "Under Review",
+          "timestamp": "2026-08-11 11:00 AM",
+          "updatedBy": "Sanitation Supervisor",
+          "notes": "Sanitation gang scheduled for desilting on Friday."
+        }
+      ]
+    },
+    {
+      "id": "GC-AP-2026-0104",
+      "title": "Drinking Water Tap Pipeline Leakage at Ramalayam Street",
+      "category": "Water",
+      "village": "Penumantra",
+      "mandal": "Penumantra",
+      "district": "West Godavari",
+      "description": "Underground drinking water main valve leaking potable water onto the road continuously since yesterday.",
+      "photoUrl": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=600&q=80",
+      "beforePhotoUrl": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=600&q=80",
+      "status": "Submitted",
+      "raisedBy": "K. Venkat Rao",
+      "raisedByPhone": "9848011223",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12",
+      "locationAddress": "Ramalayam Temple Junction, Penumantra",
+      "gpsCoords": {
+        "lat": 16.6358,
+        "lng": 81.6562
+      },
+      "assignedOfficer": "Pending Assignment",
+      "priority": "Emergency",
+      "history": [
+        {
+          "id": "H1",
+          "status": "Submitted",
+          "timestamp": "2026-08-12 06:15 AM",
+          "updatedBy": "K. Venkat Rao",
+          "notes": "Clean water is being wasted. Urgent repair needed."
+        }
+      ]
+    }
+  ],
+  "workers": [
+    {
+      "id": "WKR-001",
+      "userId": "USR-WORKER-01",
+      "name": "Venkata Ramana",
+      "photoUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+      "phone": "9848123456",
+      "occupation": "Electrician & Motor Mechanic",
+      "skills": [
+        "House Wiring",
+        "Submersible Pump Repair",
+        "Solar Panel Maintenance",
+        "Inverter Fitting"
+      ],
+      "experienceYears": 9,
+      "village": "Penumantra",
+      "mandal": "Penumantra",
+      "district": "West Godavari",
+      "isAvailable": true,
+      "dailyWage": 700,
+      "hourlyWage": 150,
+      "rating": 4.8,
+      "reviewCount": 34,
+      "completedJobs": 128,
+      "bio": "Licensed electrician with 9 years experience in agricultural motor repairs and domestic fitting.",
+      "isVerified": true
+    },
+    {
+      "id": "WKR-002",
+      "userId": "U-102",
+      "name": "M. Siva Kumar (Tapi Maistry)",
+      "photoUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80",
+      "phone": "9988776655",
+      "occupation": "Mason / Concrete Contractor",
+      "skills": [
+        "House Masonry",
+        "Tile Laying",
+        "Compound Wall",
+        "Waterproofing"
+      ],
+      "experienceYears": 14,
+      "village": "Peddapuram",
+      "mandal": "Peddapuram",
+      "district": "Kakinada",
+      "isAvailable": true,
+      "dailyWage": 850,
+      "hourlyWage": 200,
+      "rating": 4.9,
+      "reviewCount": 52,
+      "completedJobs": 210,
+      "bio": "Experienced Tapi Maistry for residential construction and remodeling.",
+      "isVerified": true
+    },
+    {
+      "id": "WKR-003",
+      "userId": "U-103",
+      "name": "Subba Rao",
+      "photoUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&q=80",
+      "phone": "9441238901",
+      "occupation": "Plumber & Borewell Specialist",
+      "skills": [
+        "PVC Pipe Fitting",
+        "Overhead Tank Connection",
+        "Bathroom Fitting",
+        "Drip Irrigation"
+      ],
+      "experienceYears": 7,
+      "village": "Tadepalligudem",
+      "mandal": "Tadepalligudem",
+      "district": "West Godavari",
+      "isAvailable": false,
+      "dailyWage": 650,
+      "hourlyWage": 140,
+      "rating": 4.6,
+      "reviewCount": 22,
+      "completedJobs": 89,
+      "bio": "Expert in household water line fittings and farm irrigation pipes.",
+      "isVerified": true
+    },
+    {
+      "id": "WKR-004",
+      "userId": "U-104",
+      "name": "Durga Bhavani",
+      "photoUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80",
+      "phone": "9849223344",
+      "occupation": "Tailor & Embroidery Specialist",
+      "skills": [
+        "Blouse Stitched",
+        "Magam Work",
+        "Uniform Stitching",
+        "Alterations"
+      ],
+      "experienceYears": 6,
+      "village": "Penumantra",
+      "mandal": "Penumantra",
+      "district": "West Godavari",
+      "isAvailable": true,
+      "dailyWage": 500,
+      "hourlyWage": 100,
+      "rating": 5,
+      "reviewCount": 18,
+      "completedJobs": 65,
+      "bio": "Custom bridal magam work and school uniform stitching with quick delivery.",
+      "isVerified": true
+    },
+    {
+      "id": "WKR-005",
+      "userId": "U-105",
+      "name": "Chiranjeevi (Painter)",
+      "photoUrl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+      "phone": "9701123344",
+      "occupation": "Painter & Distemper Specialist",
+      "skills": [
+        "Wall Putty",
+        "Exterior Weathercoat",
+        "Wood Polishing",
+        "Enamel Paint"
+      ],
+      "experienceYears": 8,
+      "village": "Penumantra",
+      "mandal": "Penumantra",
+      "district": "West Godavari",
+      "isAvailable": true,
+      "dailyWage": 700,
+      "hourlyWage": 150,
+      "rating": 4.7,
+      "reviewCount": 29,
+      "completedJobs": 95,
+      "bio": "Professional residential and commercial painting with modern spray tools.",
+      "isVerified": true
+    }
+  ],
+  "jobs": [
+    {
+      "id": "JOB-2026-001",
+      "title": "Paddy Harvesting Tractor Drivers & Loaders Needed",
+      "category": "Agriculture",
+      "wage": 800,
+      "wageType": "Per Day",
+      "location": "Penumantra Green Fields",
+      "village": "Penumantra",
+      "mandal": "Penumantra",
+      "duration": "5 Days",
+      "contactPhone": "9848055667",
+      "postedBy": "USR-EMPLOYER-01",
+      "postedByName": "Rythu Association (Nageswara Rao)",
+      "datePosted": "2026-08-10",
+      "status": "Active",
+      "applicantsCount": 4,
+      "openingsCount": 8,
+      "deadline": "2026-08-25",
+      "requiredSkills": [
+        "Tractor Driving",
+        "Heavy Lifting",
+        "Agricultural Work"
+      ],
+      "description": "Urgent requirement for 3 tractor drivers and 5 bag loaders for paddy crop harvesting and transport to procurement center."
+    },
+    {
+      "id": "JOB-2026-002",
+      "title": "Panchayat Community Center Wall Painting & Distemper",
+      "category": "Painting",
+      "wage": 750,
+      "wageType": "Per Day",
+      "location": "Grama Panchayat Building",
+      "village": "Peddapuram",
+      "mandal": "Peddapuram",
+      "duration": "3 Days",
+      "contactPhone": "9440551122",
+      "postedBy": "EMP-02",
+      "postedByName": "Peddapuram Sarpanch Office",
+      "datePosted": "2026-08-08",
+      "status": "Active",
+      "applicantsCount": 2,
+      "openingsCount": 3,
+      "deadline": "2026-08-20",
+      "requiredSkills": [
+        "Wall Putty",
+        "Primer Coating",
+        "Exterior Paint"
+      ],
+      "description": "Wall preparation, primer coating and weather proof painting for panchayat office exterior."
+    },
+    {
+      "id": "JOB-2026-003",
+      "title": "Data Entry & Digital Literacy Assistant at Village Secretariat",
+      "category": "Student Part-time / Office",
+      "wage": 400,
+      "wageType": "Per Day",
+      "location": "Grama Sachivalayam",
+      "village": "Tadepalligudem",
+      "mandal": "Tadepalligudem",
+      "duration": "1 Month Part-time",
+      "contactPhone": "9123499887",
+      "postedBy": "EMP-03",
+      "postedByName": "Digital Sachivalayam In-charge",
+      "datePosted": "2026-08-11",
+      "status": "Active",
+      "applicantsCount": 7,
+      "openingsCount": 2,
+      "deadline": "2026-08-30",
+      "requiredSkills": [
+        "Basic Computer",
+        "Telugu Typing",
+        "Aadhaar Scanning"
+      ],
+      "description": "College students wanted for helping senior citizens fill pension update forms and scanning digital documents at Sachivalayam."
+    },
+    {
+      "id": "JOB-2026-004",
+      "title": "Retail Shop Assistant & Stock Arranger",
+      "category": "Shop Helper / Retail",
+      "wage": 500,
+      "wageType": "Per Day",
+      "location": "Bhavani Super Kirana, Main Road",
+      "village": "Penumantra",
+      "mandal": "Penumantra",
+      "duration": "Ongoing Full-Time",
+      "contactPhone": "9848123999",
+      "postedBy": "SHOP-001",
+      "postedByName": "Bhavani Traders",
+      "datePosted": "2026-08-12",
+      "status": "Active",
+      "applicantsCount": 3,
+      "openingsCount": 1,
+      "deadline": "2026-08-31",
+      "requiredSkills": [
+        "Billing",
+        "Customer Service",
+        "Stock Arrangement"
+      ],
+      "description": "Friendly store helper required to manage customer orders and restock grocery items."
+    }
+  ],
+  "jobApplications": [],
+  "workerBookings": [],
+  "shops": [
+    {
+      "id": "SHP-001",
+      "name": "Bhavani Super Kirana & General Store",
+      "nameTe": "భవాని సూపర్ కిరాణా & జనరల్ స్టోర్స్",
+      "category": "Grocery & Kirana",
+      "ownerName": "B. Appa Rao",
+      "phone": "9848123999",
+      "address": "Near Ramalayam Temple, Main Road",
+      "village": "Penumantra",
+      "mandal": "Penumantra",
+      "district": "West Godavari",
+      "openingHours": "6:30 AM – 9:30 PM (All 7 Days)",
+      "isOpen": true,
+      "productsAndServices": [
+        "Rice & Pulses (బియ్యం, పప్పులు)",
+        "Cooking Oil",
+        "Fresh Milk & Curd",
+        "Spices & Masalas",
+        "UPI & Cash Accepted"
+      ],
+      "photoUrl": "https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&w=400&q=80",
+      "rating": 4.8,
+      "reviewCount": 46,
+      "isVerified": true
+    },
+    {
+      "id": "SHP-002",
+      "name": "Sanjeevani Medical & Surgical Agency",
+      "nameTe": "సంజీవని మెడికల్ & ఫార్మసీ",
+      "category": "Pharmacy & Medical",
+      "ownerName": "Dr. V. Prasad (B.Pharm)",
+      "phone": "9440987654",
+      "address": "Opposite Government PHC, Main Bazar",
+      "village": "Penumantra",
+      "mandal": "Penumantra",
+      "district": "West Godavari",
+      "openingHours": "7:00 AM – 10:30 PM (Emergency on-call 24/7)",
+      "isOpen": true,
+      "productsAndServices": [
+        "Prescription Medicines",
+        "BP & Sugar Testing",
+        "Baby Food & Diapers",
+        "First Aid Kits & Bandages",
+        "YSR Aarogyasri Guidance"
+      ],
+      "photoUrl": "https://images.unsplash.com/photo-1586015555751-63bb77f4322a?auto=format&fit=crop&w=400&q=80",
+      "rating": 4.9,
+      "reviewCount": 68,
+      "isVerified": true
+    },
+    {
+      "id": "SHP-003",
+      "name": "Sri Venkateswara Rythu Agro Fertilizers & Seeds",
+      "nameTe": "శ్రీ వెంకటేశ్వర రైతు ఎరువులు & విత్తనాల డిపో",
+      "category": "Agriculture & Seeds",
+      "ownerName": "G. Nageswara Reddy",
+      "phone": "9848554433",
+      "address": "Canal Road, Near Rythu Bharosa Kendram",
+      "village": "Penumantra",
+      "mandal": "Penumantra",
+      "district": "West Godavari",
+      "openingHours": "7:00 AM – 7:30 PM",
+      "isOpen": true,
+      "productsAndServices": [
+        "Govt Certified Paddy Seeds",
+        "Urea & DAP Fertilizers",
+        "Pest Control Sprays",
+        "Soil Testing Guidance",
+        "Sprayer Pump Rental"
+      ],
+      "photoUrl": "https://images.unsplash.com/photo-1595974482597-4b8da8879bc5?auto=format&fit=crop&w=400&q=80",
+      "rating": 4.7,
+      "reviewCount": 39,
+      "isVerified": true
+    },
+    {
+      "id": "SHP-004",
+      "name": "Lakshmi Tailoring & Modern Magam Work Centre",
+      "nameTe": "లక్ష్మి టైలరింగ్ & మగ్గం వర్క్స్",
+      "category": "Tailoring & Textiles",
+      "ownerName": "K. Durga & Lakshmi",
+      "phone": "9849223344",
+      "address": "Brahmin Street, Ward 2",
+      "village": "Penumantra",
+      "mandal": "Penumantra",
+      "district": "West Godavari",
+      "openingHours": "9:00 AM – 8:00 PM",
+      "isOpen": true,
+      "productsAndServices": [
+        "Designer Blouse Stitching",
+        "Bridal Magam Embroidery",
+        "Saree Kuchu & Fall",
+        "School & Police Uniforms",
+        "Speed 24hr Delivery"
+      ],
+      "photoUrl": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=400&q=80",
+      "rating": 5,
+      "reviewCount": 31,
+      "isVerified": true
+    },
+    {
+      "id": "SHP-005",
+      "name": "Kalyani Two-Wheeler & Tractor Auto Garage",
+      "nameTe": "కళ్యాణి బైక్ & ట్రాక్టర్ మెకానిక్ గ్యారేజ్",
+      "category": "Automobile & Repair",
+      "ownerName": "M. Satish",
+      "phone": "9123887766",
+      "address": "National Highway Junction, Tadepalligudem Road",
+      "village": "Tadepalligudem",
+      "mandal": "Tadepalligudem",
+      "district": "West Godavari",
+      "openingHours": "8:00 AM – 8:30 PM",
+      "isOpen": true,
+      "productsAndServices": [
+        "Motorbike Engine Overhaul",
+        "Tractor Hydraulic Repair",
+        "Tyre Puncture & Tubeless Fix",
+        "Battery Charging",
+        "Highway Breakdown Service"
+      ],
+      "photoUrl": "https://images.unsplash.com/photo-1486006920555-c77dce18193b?auto=format&fit=crop&w=400&q=80",
+      "rating": 4.6,
+      "reviewCount": 42,
+      "isVerified": true
+    },
+    {
+      "id": "SHP-006",
+      "name": "Grama Digital MeeSeva & Xerox Centre",
+      "nameTe": "గ్రామ డిజిటల్ మీసేవ & నెట్ సెంటర్",
+      "category": "MeeSeva & Internet",
+      "ownerName": "P. Rajesh Kumar (MCA)",
+      "phone": "9848771199",
+      "address": "Near Grama Sachivalayam, Main Gate",
+      "village": "Penumantra",
+      "mandal": "Penumantra",
+      "district": "West Godavari",
+      "openingHours": "8:00 AM – 9:00 PM",
+      "isOpen": true,
+      "productsAndServices": [
+        "Aadhaar & PAN Card Apply",
+        "JnanaBhumi Scholarship Online",
+        "APPSC & Police Exam Apply",
+        "Colour Xerox & Lamination",
+        "Online Electricity Bill Pay"
+      ],
+      "photoUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=400&q=80",
+      "rating": 4.9,
+      "reviewCount": 84,
+      "isVerified": true
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ANN-01",
+      "title": "Special Grama Sabha Meeting Regarding Drinking Water Pipeline Extension",
+      "titleTe": "తాగునీటి పైప్‌లైన్ విస్తరణపై ప్రత్యేక గ్రామసభ సమావేశం",
+      "category": "Panchayat Notice",
+      "content": "All villagers are invited to Penumantra Grama Panchayat hall on Saturday 10:00 AM to approve water scheme expansion.",
+      "contentTe": "శనివారం ఉదయం 10 గంటలకు పెనుమంత్ర పంచాయతీ కార్యాలయంలో తాగునీటి పైప్‌లైన్ విస్తరణపై గ్రామసభ జరుగును. గ్రామస్థులంతా హాజరుకాగలరు.",
+      "date": "2026-08-12",
+      "village": "Penumantra",
+      "isImportant": true,
+      "issuedBy": "Grama Sarpanch & Secretary"
+    },
+    {
+      "id": "ANN-02",
+      "title": "Free Health Screening & Eye Checkup Camp by YSR Aarogyasri Team",
+      "titleTe": "ఉచిత ఆరోగ్య పరీక్షలు & కంటి వైద్య శిబిరం",
+      "category": "Health Drive",
+      "content": "Free blood pressure, sugar, and cataract eye screening camp at MPPS School on Sunday Aug 17th from 8:00 AM to 2:00 PM.",
+      "contentTe": "ఆగస్టు 17న ఉదయం 8 నుండి మధ్యాహ్నం 2 వరకు ఉచిత బిపి, షుగర్ మరియు కంటి చూపు పరీక్షలు నిర్వహించబడును.",
+      "date": "2026-08-11",
+      "village": "All Villages in Mandal",
+      "isImportant": false,
+      "issuedBy": "PHC Medical Officer"
+    },
+    {
+      "id": "ANN-03",
+      "title": "Drinking Water Overhead Tank Cleaning Scheduled for Wednesday",
+      "titleTe": "బుధవారం ఓవర్‌హెడ్ వాటర్ ట్యాంక్ క్లీనింగ్ – నీటి సరఫరా బంద్",
+      "category": "Water Supply",
+      "content": "Drinking water overhead tank chlorination & silt clearance will take place on Wednesday. Tap supply suspended from 10 AM to 4 PM.",
+      "contentTe": "బుధవారం ఉదయం 10 నుండి సాయంత్రం 4 గంటల వరకు గ్రామ మంచినీటి ట్యాంక్ బ్లీచింగ్ పనులు జరుగును. గ్రామస్థులు ముందే నీరు నిల్వ చేసుకోవాలి.",
+      "date": "2026-08-10",
+      "village": "Penumantra",
+      "isImportant": true,
+      "issuedBy": "Water Works Dept"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "NOTIF-1794225010177",
+      "roleTarget": "all",
+      "title": "🚨 EMERGENCY SOS DISPATCHED: Penumantra Main Road, near Water Tank",
+      "titleTe": "🚨 అత్యవసర SOS సహాయం పంపబడింది: Penumantra Main Road, near Water Tank",
+      "message": "Emergency SOS triggered by K. Venkat Rao (9848011223). Alerts dispatched to Police (100) & Ambulance (108).",
+      "messageTe": "K. Venkat Rao నుండి అత్యవసర SOS అలర్ట్. 100 పోలీస్ మరియు 108 అంబులెన్స్ కు సమాచారం చేరింది.",
+      "type": "emergency",
+      "read": false,
+      "createdAt": "2026-11-09",
+      "linkTab": "health"
+    },
+    {
+      "id": "NOTIF-01",
+      "roleTarget": "all",
+      "title": "Grievance Update: Road Repair Completed",
+      "titleTe": "ఫిర్యాదు అప్‌డేట్: రోడ్డు గుంతల మరమ్మత్తు పూర్తయింది",
+      "message": "Road complaint #GC-AP-2026-0101 at Peddapuram has been marked as Resolved with after-photo proof.",
+      "messageTe": "పెద్దాపురం రోడ్డు సమస్య #GC-AP-2026-0101 కు మరమ్మత్తు పూర్తి చేసి పరిష్కారంగా గుర్తించారు.",
+      "type": "complaint",
+      "read": true,
+      "createdAt": "2026-08-05",
+      "linkTab": "complaints"
+    },
+    {
+      "id": "NOTIF-02",
+      "roleTarget": "all",
+      "title": "Panchayat Sabha Notice: Drinking Water",
+      "titleTe": "గ్రామసభ ముఖ్య సమాచారం: తాగునీటి పైప్‌లైన్",
+      "message": "Special Grama Sabha meeting scheduled for Saturday 10:00 AM at Panchayat Hall.",
+      "messageTe": "శనివారం ఉదయం 10 గంటలకు పంచాయతీ కార్యాలయంలో ప్రత్యేక గ్రామసభ.",
+      "type": "announcement",
+      "read": true,
+      "createdAt": "2026-08-12",
+      "linkTab": "home"
+    },
+    {
+      "id": "NOTIF-03",
+      "roleTarget": "worker",
+      "title": "New Agriculture Jobs Posted in Penumantra",
+      "titleTe": "పెనుమంత్రలో కొత్త వ్యవసాయ పనుల ప్రకటన",
+      "message": "Rythu Association posted 8 openings for tractor drivers and harvesting loaders (₹800/day).",
+      "messageTe": "వరి కోత పనులకు 8 మంది కూలీలు మరియు ట్రాక్టర్ డ్రైవర్లు కావలెను (రోజుకు ₹800).",
+      "type": "job",
+      "read": true,
+      "createdAt": "2026-08-10",
+      "linkTab": "jobs"
+    }
+  ],
+  "bookmarks": {
+    "USR-CITIZEN-01": {
+      "jobs": [],
+      "workers": [],
+      "shops": []
+    }
+  }
+}

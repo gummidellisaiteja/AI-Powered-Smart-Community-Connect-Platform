@@ -1,0 +1,6 @@
+{
+  "name": "GramConnect – Smart Village 360° Platform",
+  "description": "Bilingual (Telugu & English) smart village platform for grievance management, local worker directory, job finder, education hub, health/emergency SOS, and AI assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
